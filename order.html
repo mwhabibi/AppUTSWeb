@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link rel="stylesheet" href="style-order.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>List Menu:</h1>
+      <div class="menu-container">
+        <div class="menu-item">
+          <div class="menu-item-content">
+            <img src="cappuccino.jpg" alt="Cappuccino" />
+            <h3>Cappuccino</h3>
+            <p>Hot</p>
+            <p>Rp. 35.000</p>
+            <div class="quantity">
+              <button class="decrease">-</button>
+              <span>0</span>
+              <button class="increase">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-content">
+            <img src="green-tea-latte.jpg" alt="Green Tea Latte" />
+            <h3>Green Tea Latte</h3>
+            <p>Ice/Hot</p>
+            <p>Rp. 40.000</p>
+            <div class="quantity">
+              <button class="decrease">-</button>
+              <span>0</span>
+              <button class="increase">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-content">
+            <img src="fish-and-cips.jpg" alt="Fish and Chips" />
+            <h3>Fish and Chips</h3>
+            <p>-</p>
+            <p>Rp. 50.000</p>
+            <div class="quantity">
+              <button class="decrease">-</button>
+              <span>0</span>
+              <button class="increase">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-content">
+            <img src="tuna-sandwich.jpg" alt="Tuna Sandwich" />
+            <h3>Tuna Sandwich</h3>
+            <p>-</p>
+            <p>Rp. 45.000</p>
+            <div class="quantity">
+              <button class="decrease">-</button>
+              <span>0</span>
+              <button class="increase">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-content">
+            <img src="mineral-water.jpg" alt="Mineral Water" />
+            <h3>Mineral Water</h3>
+            <p>Ice/Hot</p>
+            <p>Rp. 8.000</p>
+            <div class="quantity">
+              <button class="decrease">-</button>
+              <span>0</span>
+              <button class="increase">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-content">
+            <img src="french-fries.jpg" alt="French Fries" />
+            <h3>French Fries</h3>
+            <p>-</p>
+            <p>Rp. 18.000</p>
+            <div class="quantity">
+              <button class="decrease">-</button>
+              <span>0</span>
+              <button class="increase">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-container">
+        <h2>Total:</h2>
+        <h2 id="total">Rp.</h2>
+      </div>
+      <div class="payment-container">
+        <button id="payNowButton">Bayar Sekarang</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
